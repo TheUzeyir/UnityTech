@@ -1,0 +1,83 @@
+.header{
+    margin: 32px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_left{
+    color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.header_left_icon{
+    font-size: 40px;
+}
+
+.header_navBar{
+    display: flex;
+    gap: 1rem;
+}
+
+.header_navBar_link{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.header_navBar_link_icon{
+    font-weight: bold;
+}
+
+.header_right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header_right_searchIcon_box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 6px; 
+}
+
+.header_right_searchIcon{
+    color: blue;
+}
+
+.header_right_btn{
+    color: white;
+    background: blue;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+
+    &_icon{
+        margin-right: 10px;
+    }
+}
+.header_right_barIcon{
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+    .header_navBar{
+        display: none;
+    }
+    .header_right_barIcon{
+        display: block;
+    }
+}
+@media screen and (max-width:766px) {
+    .header_right_btn_icon{
+        margin-right: 0px;
+    }
+    .header_right_btn_text{
+       display: none;
+    }
+}

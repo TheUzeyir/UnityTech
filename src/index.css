@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+.container{
+  margin: 0 175px;
+}
