@@ -1,9 +1,18 @@
 .headerBar {
-  width: 350px;
-  margin: -32px -30px;
+  width: 320px;
+  left: 0;
+  top: 0;
   padding: 20px;
   height: 100vh;
+  position: absolute;
+  z-index: 5;
+  background: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition-duration: 1s;
+}
+
+.headerBar_displayNone {
+  margin-left: -400px;
 }
 
 .headerBar_head {
@@ -14,6 +23,10 @@
 
 .headerBar_head_closeIcon {
   cursor: pointer;
+}
+
+.headerBar_head_closeIcon:hover {
+  color: red;
 }
 
 .headerBar_left {
@@ -44,4 +57,10 @@
 }
 .headerBar_main_text_icon {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  .headerBar {
+    display: none;
+  }
 }/*# sourceMappingURL=headerBar.module.css.map */

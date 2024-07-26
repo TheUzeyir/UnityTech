@@ -81,3 +81,13 @@
        display: none;
     }
 }
+
+@media screen and (max-width:450px) {
+    .header_left{
+        font-size: 10px;
+    }
+
+    .header_left_icon{
+        font-size: 25px;
+    }
+}

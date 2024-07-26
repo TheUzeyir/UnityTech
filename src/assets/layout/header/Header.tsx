@@ -6,12 +6,18 @@ import { IoPerson } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
 import HeaderBar from "../../components/headerBar/HeaderBar";
+import { useState } from 'react';
 
 
 const Header = () => {
+  const [showSlideBar, setShowSlidebar] = useState(true);
+  const toggleMenu = () => {
+    setShowSlidebar(prevState => !prevState);
+  }
+
   return (
     <div className={style.header}>
-      {/* <p className={style.header_left}><PiStudentFill className={style.header_left_icon}/>UnityTech</p>
+      <p className={style.header_left}><PiStudentFill className={style.header_left_icon}/>UnityTech</p>
         <nav className={style.header_navBar}>
       <NavLink className={style.header_navBar_link} to="/">Home <MdKeyboardArrowDown className={style.header_navBar_link_icon}/></NavLink>
       <NavLink className={style.header_navBar_link} to="/about">About <MdKeyboardArrowDown className={style.header_navBar_link_icon}/></NavLink>
@@ -25,9 +31,9 @@ const Header = () => {
         <IoSearch className={style.header_right_searchIcon}/>
       </div>
       <button className={style.header_right_btn}><IoPerson className={style.header_right_btn_icon}/><p className={style.header_right_btn_text}>Login / Register</p></button>
-      <FaBars className={style.header_right_barIcon}/>
-    </div> */}
-    <HeaderBar/>
+      <FaBars className={style.header_right_barIcon} onClick={toggleMenu}/>
+    <HeaderBar showSlideBar={showSlideBar} closeMenu={toggleMenu}/>
+    </div>
     </div>
   )
 }
