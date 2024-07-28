@@ -1,0 +1,145 @@
+.mainPageAboutUs{
+    background-image: radial-gradient(circle, #FFE4DB 10%, #EFE8F0 90%);
+    display: flex;
+    padding-top: 40px;
+}
+
+.mainPageAboutUs_left_title{
+    color: blue;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.mainPageAboutUs_left_mainText{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: 25px;
+}
+
+.mainPageAboutUs_left_desc{
+    color: #6F6B80;
+    font-size: 20px;
+    border-left: 3px solid blue;
+    padding-left: 20px;
+    margin: 30px 0;
+}
+
+.mainPageAboutUs_left_btn{
+    background: #525FE1;
+    font-weight: bold;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.mainPageAboutUs_left_btn:hover{
+    background: #000a68;
+    transition-duration: 0.5s;
+}
+
+.mainPageAboutUs_right{
+    display: flex;
+    margin-top: 20px;
+}
+.mainPageAboutUs_right_imgBoxRight{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.mainPageAboutUs_right_imgBoxRightTop{
+    width: 280px;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_img{
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_imgText{
+    color: white;
+    background:  #525FE1;
+    padding: 6px 14px;
+    width: max-content;
+    border-radius: 4px;
+    font-size: 14px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_lessonText_icon,
+.mainPageAboutUs_right_imgBoxRightTop_timeText_icon{
+    color: rgb(234, 152, 0);
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_lessonText,
+.mainPageAboutUs_right_imgBoxRightTop_timeText{
+    color: #6F6B80;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_timeText{
+    padding-left: 20px;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_title{
+    font-weight: bold;
+    margin: 10px 0 ;
+}
+
+.mainPageAboutUs_right_imgBoxRightTop_desc{
+    color:#6F6B80;
+    font-size: 14px;
+}
+
+.mainPageAboutUs_right_imgBoxRightBottom{
+    background: white;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mainPageAboutUs_right_imgBoxRightBottom_img{
+    padding: 10px;
+}
+
+.mainPageAboutUs_right_imgBoxRightBottom_title{
+    font-weight: bold;
+    margin:0 40px 0 10px ;
+}
+
+.mainPageAboutUs_right_imgBoxRightBottom_text{
+    color: #6F6B80;
+    margin: 10px;
+}
+
+.mainPageAboutUs_right_imgBoxRightBottom_btn{
+    background: #F86F03;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainPageAboutUs_right_imgBoxLeft_img{
+}
+
+@media screen and (max-width:1030px) {
+    .mainPageAboutUs{
+        display: flex;
+    }
+
+    .mainPageAboutUs_right{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,98 @@
+.mainPageAboutUs{
+    display: flex;
+    gap: 100px;
+    margin: 120px 0;
+}
+
+.mainPageAboutUs_left{
+    position: relative;
+}
+
+.mainPageAboutUs_left_MainImg{
+    position: relative;
+}
+
+.mainPageAboutUs_left_LogoImg{
+    position: absolute;
+    top: 20px;
+    left: -65px;
+    animation: rotate 5s linear infinite;
+}
+
+.mainPageAboutUs_left_PointImg{
+    position: absolute;
+    bottom: -20px;
+    left: -30px;
+    z-index: -1;
+}
+
+.mainPageAboutUs_right_title{
+    color: blue;
+    font-weight: bold;
+}
+
+.mainPageAboutUs_right_mainText{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.mainPageAboutUs_right_desc{
+    color: gray;
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.mainPageAboutUs_right_card_iconBox{
+    background: #F86F03;
+    width: max-content;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.mainPageAboutUs_right_card_icon{
+    color: white;
+}
+
+.mainPageAboutUs_right_card{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.mainPageAboutUs_right_card_textBox_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mainPageAboutUs_right_card_textBox_desc{
+    color: #6F6B80;
+    margin-top: 20px;
+}
+
+.mainPageAboutUs_right_card{
+    margin: 40px 0;
+}
+
+.mainPageAboutUs_right_btn{
+    background: #525FE1;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 20px;
+}
+.mainPageAboutUs_right_btn:hover{
+        background: #000a68;
+        transition-duration: 0.5s;
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }

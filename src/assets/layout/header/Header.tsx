@@ -5,12 +5,12 @@ import { IoSearch } from "react-icons/io5";
 import { IoPerson } from "react-icons/io5";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { FaBars } from "react-icons/fa";
-import HeaderBar from "../../components/headerBar/HeaderBar";
+import HeaderBar from "./headerBar/HeaderBar";
 import { useState } from 'react';
 
 
 const Header = () => {
-  const [showSlideBar, setShowSlidebar] = useState(true);
+  const [showSlideBar, setShowSlidebar] = useState(false);
   const toggleMenu = () => {
     setShowSlidebar(prevState => !prevState);
   }
