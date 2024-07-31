@@ -1,0 +1,41 @@
+.testiminioalCard_desc {
+  width: 100%;
+}
+
+.testiminioalCard_box {
+  width: 100%;
+}
+
+.autoSlider {
+  display: flex;
+  flex-direction: column;
+}
+
+.testiminioalCard_box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.testiminioalCard_box_img {
+  width: 100px;
+  height: 100px;
+}
+
+.testiminioalCard_desc {
+  font-size: 25px;
+  color: #6F6B80;
+  margin-bottom: 30px;
+}
+
+.testiminioalCard_box_personInfo_name {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.testiminioalCard_box_personInfo_work {
+  color: #525FE1;
+  font-style: 16px;
+  font-weight: 600;
+}/*# sourceMappingURL=autoPlaySlider.module.css.map */

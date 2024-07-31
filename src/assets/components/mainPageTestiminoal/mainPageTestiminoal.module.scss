@@ -1,0 +1,80 @@
+.mainPageTestiminoal{
+    background-image: radial-gradient(circle, #FFE4DB 10%, #EFE8F0 90%);
+    padding: 130px 0 50px 0;
+    text-align: center;
+}
+
+.mainPageTestiminoal_card{
+    display: flex; 
+    gap: 100px;
+    align-items: center;
+}
+
+.mainPageTestiminoal_title{
+    color: #525FE1;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.mainPageTestiminoal_subtitle{
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 0 50px 0;
+}
+
+.mainPageTestiminoal_cardLeft{
+    position: relative;
+}
+
+.cupaBox{
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: white;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 20px 30px;
+    gap: 20px;
+    position: absolute;
+    top: 110px;
+    left: -160px;
+    animation: cupaBoxs 1s linear;
+}
+
+.mainPageTestiminoal_cardLeft_cupaImg{
+    width: 40px;
+}
+
+.cupaBox_text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+
+.cupaBox_text_number{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cupaBox_text_title{
+    color: #807C8F;
+    font-weight: bold;
+    font-size: 14px
+}
+
+@keyframes cupaBoxs {
+    0% {
+        margin-top: 30px;
+      }
+      50% {
+        margin-top: 0px;
+      }
+      75% {
+        margin-top: -10px;
+      }
+      100% {
+        margin-top: 40px;
+      }
+  }
+  

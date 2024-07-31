@@ -36,8 +36,50 @@
     border-radius: 6px;
     cursor: pointer;
 }
+.mainPageCourseCategories_categoryCard2:hover,
+.mainPageCourseCategories_categoryCard3:hover,
+.mainPageCourseCategories_categoryCard4:hover{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    transition-duration: 1s;
+
+    .mainPageCourseCategories_categoryCard_progressBarContainer{
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    .mainPageCourseCategories_categoryCard_progressBar{
+        height: 100%;
+        background-color: blue;
+        animation: stick 0.5s linear ;
+    }
+
+}
+
 .mainPageCourseCategories_categoryCard1:hover{
-    display: none;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    transition-duration: 1s;
+
+    .mainPageCourseCategories_categoryCard_progressBarContainer1{
+        width: 100%;
+        height: 4px;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    .mainPageCourseCategories_categoryCard_progressBar{
+        height: 100%;
+        background-color: blue;
+        animation: stick 0.5s linear ;
+    }
+}
+
+
+.mainPageCourseCategories_categoryCard_progressBarContainer1{
+    margin-top: 20px;
 }
 
 .mainPageCourseCategories_categoryCard_image{
@@ -75,3 +117,27 @@
         background: #000a68;
         transition-duration: 0.5s;
 }
+
+.container {
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .progressBar {
+    height: 100%;
+    background-color: #3498db;
+    animation: stick 5s linear infinite;
+  }
+  
+  @keyframes stick {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
