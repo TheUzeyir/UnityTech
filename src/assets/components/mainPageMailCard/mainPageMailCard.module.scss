@@ -1,0 +1,53 @@
+.mainPageMAilCard{
+    background:#525FE1 ;
+    color: white;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.mainPageMAilCard_title{
+    font-size: 16px;
+    text-align: center;
+}
+
+.mainPageMAilCard_subtitle{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.mainPageMAilCard_inputBox_input{
+    padding: 20px 200px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+}
+
+.mainPageMAilCard_inputBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.mainPageMAilCard_inputBox_mailIcon{
+    position: absolute;
+    left: 5%;
+    color: #7D7D7D;
+}
+
+.mainPageMAilCard_inputBox_telegramIocn{
+    color: blue;
+    right: 2%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.mainPageMAilCard_inputBox_input::placeholder{
+    position: absolute;
+    left: 10%;
+    font-size: 15px;
+}

@@ -1,0 +1,82 @@
+.mainPageTeamMember {
+  background: #525FE1;
+  color: white;
+  padding-bottom: 100px;
+}
+
+.mainPageTeamMember_box_card_info_sosialBox {
+  width: -moz-max-content;
+  width: max-content;
+  background: white;
+  color: blue;
+  font-size: 20px;
+}
+
+.mainPageTeamMember_title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 100px 0 20px 0;
+  text-align: center;
+}
+
+.mainPageTeamMember_subtitle {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.mainPageTeamMember_box {
+  display: flex;
+  margin: 40px 0;
+  gap: 20px;
+}
+
+.mainPageTeamMember_box_card {
+  position: relative;
+}
+
+.mainPageTeamMember_box_card_img {
+  width: 100%;
+  height: 320px;
+  border-radius: 6px;
+}
+
+.mainPageTeamMember_box_card_info {
+  color: black;
+  background: white;
+  display: none;
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute;
+  width: 100%;
+  left: 10px;
+  bottom: -20px;
+}
+
+.mainPageTeamMember_box_card:hover .mainPageTeamMember_box_card_info {
+  display: block;
+}
+
+.mainPageTeamMember_box_card_title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mainPageTeamMember_box_card_title:hover {
+  color: #525FE1;
+  cursor: pointer;
+}
+
+.mainPageTeamMember_box_card_subtitle {
+  color: #777487;
+  padding: 10px 0;
+}
+
+.mainPageTeamMember_box_card_info_sosialBox {
+  display: flex;
+  gap: 20px;
+}
+
+.mainPageTeamMember_box_card_info_sosialBox_icon {
+  cursor: pointer;
+}/*# sourceMappingURL=mainPageTeamMember.module.css.map */
